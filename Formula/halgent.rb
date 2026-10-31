@@ -2,17 +2,17 @@
 class Halgent < Formula
   desc "Control layer between AI agents and the tools they use"
   homepage "https://halgent.com"
-  version "0.0.8"
+  version "0.0.9"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://dl.halgent.com/halgent/v0.0.8/halgent_0.0.8_darwin_arm64.tar.gz"
-      sha256 "908d729088859eeb7a1eb39a4bc3f9379aa6ba6ced18c0cd9a21596fc2dde4ae"
+      url "https://dl.halgent.com/halgent/v0.0.9/halgent_0.0.9_darwin_arm64.tar.gz"
+      sha256 "2e2a4b03b750b84735010271f952004a388901d3fe9fbfcbb1198e49889c0d86"
     end
     on_intel do
-      url "https://dl.halgent.com/halgent/v0.0.8/halgent_0.0.8_darwin_amd64.tar.gz"
-      sha256 "949ec213a3b3330b4e8fff72b3c1f20ecade294e5aeff8b1c2d10871a5530540"
+      url "https://dl.halgent.com/halgent/v0.0.9/halgent_0.0.9_darwin_amd64.tar.gz"
+      sha256 "d0c7190c2baef82a729b03b78a7ea7b93065f48a8b293e0c53755a2202b08a5a"
     end
   end
 
@@ -20,12 +20,12 @@ class Halgent < Formula
     depends_on "socat"
 
     on_arm do
-      url "https://dl.halgent.com/halgent/v0.0.8/halgent_0.0.8_linux_arm64.tar.gz"
-      sha256 "22154af74b0181551db2ad0467469c7b97c3f758fea202b5c69c4c23650751db"
+      url "https://dl.halgent.com/halgent/v0.0.9/halgent_0.0.9_linux_arm64.tar.gz"
+      sha256 "741f8de3eff913a29f1e26e1e875cff8d029f3a80031213a256ecefe99231a78"
     end
     on_intel do
-      url "https://dl.halgent.com/halgent/v0.0.8/halgent_0.0.8_linux_amd64.tar.gz"
-      sha256 "5298c047f6a08d42746a4cccfae0af73094269cde17fa62d3301032cf9197e9d"
+      url "https://dl.halgent.com/halgent/v0.0.9/halgent_0.0.9_linux_amd64.tar.gz"
+      sha256 "b1f3d855a3553162ec22ff2e89ad324bd1d91386b7abadb91fdade67c0055968"
     end
   end
 
