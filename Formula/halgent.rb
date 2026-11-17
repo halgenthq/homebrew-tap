@@ -1,18 +1,19 @@
-# Rendered by scripts/release.sh into halgenthq/homebrew-tap Formula/halgent.rb. A formula, never a cask: brew does not quarantine formula downloads, and the binaries are not notarized.
+# Rendered by scripts/release.sh into halgenthq/homebrew-tap Formula/halgent.rb.
+# A formula, never a cask: brew does not quarantine formula downloads, and the binaries are not notarized.
 class Halgent < Formula
   desc "Control layer between AI agents and the tools they use"
   homepage "https://halgent.com"
-  version "0.0.17"
+  version "0.0.18"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://dl.halgent.com/halgent/v0.0.17/halgent_0.0.17_darwin_arm64.tar.gz"
-      sha256 "67e4dadce334fa69f60b94328ca1a6a4ab1b4f290eee7263547a5aeda7a834d7"
+      url "https://dl.halgent.com/halgent/v0.0.18/halgent_0.0.18_darwin_arm64.tar.gz"
+      sha256 "ceba098abed75674ec9290a601a10e4925e0016d33960a2f7994cb9c0132cec0"
     end
     on_intel do
-      url "https://dl.halgent.com/halgent/v0.0.17/halgent_0.0.17_darwin_amd64.tar.gz"
-      sha256 "a4e5b6d743377eea09395b9615c9e9035faa9c716a1c1dc7cfc720492d486f77"
+      url "https://dl.halgent.com/halgent/v0.0.18/halgent_0.0.18_darwin_amd64.tar.gz"
+      sha256 "653ed521fcf294a05f12ad76fc6454b813b7de2cc1d3eab0bff5a6c8a462e61a"
     end
   end
 
@@ -20,12 +21,12 @@ class Halgent < Formula
     depends_on "socat"
 
     on_arm do
-      url "https://dl.halgent.com/halgent/v0.0.17/halgent_0.0.17_linux_arm64.tar.gz"
-      sha256 "6e3437cec7e49196cbddad7b3e5b25574a27a165fe7c8eabf889ca3c13e16a12"
+      url "https://dl.halgent.com/halgent/v0.0.18/halgent_0.0.18_linux_arm64.tar.gz"
+      sha256 "633de3d8e21cafef401b9685c349cecd6c866d31ceed11f6bd401499e5df3bda"
     end
     on_intel do
-      url "https://dl.halgent.com/halgent/v0.0.17/halgent_0.0.17_linux_amd64.tar.gz"
-      sha256 "d07df7205faa7a8540966de4124c4c6b225fbc6a500c5507d6aa9e963d21e4e5"
+      url "https://dl.halgent.com/halgent/v0.0.18/halgent_0.0.18_linux_amd64.tar.gz"
+      sha256 "db5928c6bc4476f79e3e87800d913211b1e414ef955f0368b1cbf6f6db9ef3e2"
     end
   end
 
